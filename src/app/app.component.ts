@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MEANStack';
+  
+  name = "Sagar"
+  
+  students = [{name:"sagar",branch:"CE"},{name:"Priya",branch:"Civil"},{name:"Nikhil",branch:"CE"},{name:"Renish",branch:"IT"}]
+  
 }
